@@ -1,0 +1,17 @@
+.info__wrapper {
+}
+@media screen and (min-width: 1024px) {
+  .info .list {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  }
+  .info .item {
+    width: 20%;
+  }
+  .info .img {
+    height: 20rem;
+    object-fit: cover;
+    margin: 0;
+  }
+}

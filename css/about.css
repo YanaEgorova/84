@@ -1,0 +1,50 @@
+.about__wrapper {
+  /* background-color: var(--third-brand-color); */
+}
+.about  {
+  padding: 5rem 0;
+}
+.about__icon {
+  width: auto;
+  height: 4rem;
+  margin-bottom: 3rem;
+}
+.about .list {
+  max-width:40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .item  {
+  padding: 4rem 3rem;
+  border-radius: 1rem;
+}
+.about .item:nth-child(odd)  {
+  background-color: var(--third-brand-color);
+}
+.about .item:nth-child(even)  {
+  background-color: var(--second-brand-color);
+}
+.about .item:nth-child(even) .text {
+  color: var(--sub-text-color);
+}
+.about .text {
+  margin: 0;
+  max-width: 100%;
+}
+.about .text.bold {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .about .list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+  }
+  .about .item  {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
